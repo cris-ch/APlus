@@ -14,9 +14,12 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md bg-danger navbar-dark py-3">
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark py-3 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">A Plus English</a>
+        <a href="#" class="navbar-brand">
+          <!-- Logo Image -->
+          <img src="images/aplus-logo-white-transparent-bg.png" width="60" alt="" class="d-inline-block align-middle mr-2"/>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +51,10 @@
     </nav>
 
     <!--Nosotros-->
-    <section class="bg-secondary bg-opacity-50 text-dark p-5 p-lg-0 pt-lg-5 text-center">
+    <section
+      id="nosotros"
+      class="bg-secondary bg-opacity-50 text-dark p-5 p-lg-0 pt-lg-5 text-center"
+    >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
@@ -57,14 +63,14 @@
               <span class="text-danger"><strong>A Plus</strong></span>
               English Language School
             </h1>
-            <p class="my-3 text-sm-start lead"><strong>
-              
+            <p class="my-3 text-sm-start lead">
+              <strong>
                 Founded in 2017, A Plus English Language School (fondly known as
                 "A Plus") is a Cambridge English Platinum and Teaching Awards
-                Centre. We have been successfully running Cambridge CELTA courses
-                for over a decade now and our experienced tutors have trained
-                1’000s of students.
-            </strong>
+                Centre. We have been successfully running Cambridge CELTA
+                courses for over a decade now and our experienced tutors have
+                trained 1’000s of students.
+              </strong>
             </p>
             <button class="btn btn-danger">Contactanos</button>
           </div>
@@ -79,70 +85,87 @@
         <div class="d-md-flex justify-content-between align-items-center">
           <h4 class="mb-md-0">
             Te enviamos <span>GRATIS</span> un test de nivel.
-          </h3>
+          </h4>
           <div class="input-group test-input">
             <input
               type="text"
               class="form-control bg-light"
               placeholder="E-mail"
             />
-            <button class="btn btn" type="button">
-              Enviar
-            </button>
+            <button class="btn btn" type="button">Enviar</button>
           </div>
         </div>
       </div>
     </section>
 
     <!--Cursos-->
-    <section class="bg-secondary text-light p-5" id="cursos">
+    <section id="cursos" class="p-5">
       <div class="container">
-        <h2 class="text-center mb-5">Nuestros Cursos</h2>
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
             <div class="card">
-              <img src="images/2.svg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Cambridge English</h5>
-                <p class="card-text">
-                  Cambridge English is the world’s leading provider of
-                  English-language qualifications. We offer a range of
-                  qualifications for learners and teachers of English.
+              <img
+                src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Dōtonbori Canal</h5>
+                <p class="card-text mb-4">
+                  Is a manmade waterway dug in the early 1600's and now displays
+                  many landmark commercial locals and vivid neon signs.
                 </p>
-                <a href="#" class="btn btn-danger">Ver mas</a>
+                <a href="#" class="btn btn-primary mt-auto align-self-start"
+                  >Book now</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
             <div class="card">
-              <img src="images/3.svg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Cambridge English</h5>
-                <p class="card-text">
-                  Cambridge English is the world’s leading provider of
-                  English-language qualifications. We offer a range of
-                  qualifications for learners and teachers of English.
+              <img
+                src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Porto Timoni Double Beach</h5>
+                <p class="card-text mb-4">
+                  Near Afionas village, on the west coast of Corfu island. The
+                  two beaches form two unique bays. The turquoise color of the
+                  sea contrasts to the high green hills surrounding it.
                 </p>
-                <a href="#" class="btn btn-danger">Ver mas</a>
+                <a href="#" class="btn btn-primary mt-auto align-self-start"
+                  >Book now</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
             <div class="card">
-              <img src="images/4.svg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Cambridge English</h5>
-                <p class="card-text">
-                  Cambridge English is the world’s leading provider of
-                  English-language qualifications. We offer a range of
-                  qualifications for learners and teachers of English.
+              <img
+                src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tritons Fountain</h5>
+                <p class="card-text mb-4">
+                  Located just outside the City Gate of Valletta, Malta. It
+                  consists of three bronze Tritons holding up a large basin,
+                  balanced on a concentric base built out of concrete and clad
+                  in travertine slabs.
                 </p>
-                <a href="#" class="btn btn-danger">Ver mas</a>
+                <a href="#" class="btn btn-primary mt-auto align-self-start"
+                  >Book now</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
