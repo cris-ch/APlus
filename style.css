@@ -1,7 +1,7 @@
 body::before {
   display: block;
   content: '';
-  height: 60px;
+  height: 50px;
 }
 
 @media(min-width: 768px) {
@@ -9,3 +9,4 @@ body::before {
     width: 50%;
   }
 }
+
