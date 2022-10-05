@@ -1,3 +1,4 @@
+/* Add Transparent content to make up for the navbar on top */
 body::before {
   display: block;
   content: "";
@@ -10,7 +11,18 @@ body::before {
   }
 }
 
+/* Change font */
 body {
-  font-family: 'Amatic SC', cursive;
-
+  font-family: 'Montserrat Alternates', sans-serif;
 }
+
+/* Make Carousel Images Darker for Better Contrast */
+/* .carousel-inner:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+} */
